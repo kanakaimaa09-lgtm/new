@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(green-natural-background-with-wooden-surface-free-image.webp);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url(grunge-plaster-cement-concrete-wall-texture-red-color-with-scratches.jpg);
+    background: transparent;
+    position: relative;
+    align-items: center;
+    border: 0.5px solid black transparent;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px rgb(1, 56, 1);
+}
+
+header h1 {
+    text-align: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+    color: rgb(34, 33, 33);
+    font-weight: 200;
+    font-family: fantasy;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 200;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+    button {
+        margin-right: 30px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+
+    .help {
+        margin-right: 40px;
+    }
+}
+
+.container :hover {
+    cursor: pointer;
+}
+
+.content :hover {
+    font-size: 18px;
+}
