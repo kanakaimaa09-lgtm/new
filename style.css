@@ -41,6 +41,18 @@ header h1 {
 
 .content {
     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.content p {
+    margin: 0 40px 0 40px;
+}
+
+.login {
+    display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-between;
@@ -63,5 +75,6 @@ header h1 {
 }
 
 .content :hover {
-    font-size: 18px;
+    font-size: 1.02em;
+     
 }
