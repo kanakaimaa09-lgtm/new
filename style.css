@@ -38,6 +38,9 @@ header h1 {
     color: white;
     font-weight: 200;
     padding: 10px 0;
+    border-bottom: 1px solid rgba(210, 226, 179, 0.493);
+    position: relative;
+    height: 50px;
 }
 
 .content {
@@ -51,6 +54,7 @@ header h1 {
 
 .content p {
     margin: 0 40px 0 40px;
+    padding: 5px;
 }
 
 .login {
@@ -58,18 +62,18 @@ header h1 {
     align-items: center;
     text-align: center;
     justify-content: space-between;
+}
 
-    button {
-        margin-right: 30px;
-        padding: 5px 10px;
-        border-radius: 10px;
-        border: none;
-        outline: none;
-    }
+button {
+    margin-right: 30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
 
-    .help {
-        margin-right: 40px;
-    }
+.help {
+    margin-right: 40px;
 }
 
 .container :hover {
@@ -84,13 +88,16 @@ header h1 {
     backdrop-filter: 5px;
 }
 
-.login:hover {
+.help:hover {
     position: relative;
     font-size: 16.5px;
-    transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out
 }
 
 button:hover {
     background-color: #a7a4a4;
     border: .10px solid #a7a4a4;
+    position: relative;
+    font-size: 14.5px;
+    transition: 0.2s ease-in-out;
 }
