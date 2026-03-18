@@ -41,6 +41,7 @@ header h1 {
     border-bottom: 1px solid rgba(210, 226, 179, 0.493);
     position: relative;
     height: 50px;
+
 }
 
 .content {
@@ -106,7 +107,7 @@ button:hover {
     display: flex;
     text-align: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
     border-top: 2px solid rgb(158, 149, 149);
     border-bottom: 2px solid rgb(158, 149, 149);
@@ -120,8 +121,6 @@ button:hover {
     margin: 0 50px 0 5PX;
 }
 
-
-
 .traditional {
     display: flex;
     text-align: center;
@@ -130,4 +129,51 @@ button:hover {
     border-bottom: 2px solid rgb(158, 149, 149);
     outline: none;
     margin-top: 2px;
+}
+
+.get-together {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid rgb(158, 149, 149);
+    outline: none;
+    margin-top: 2px;
+}
+
+.birthday {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid rgb(158, 149, 149);
+    outline: none;
+    margin-top: 2px;
+}
+
+.picnic {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid rgb(158, 149, 149);
+    outline: none;
+    margin-top: 2px;
+}
+
+footer {
+    margin: 10px 10% 0 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+.icon {
+    border-radius: 50%;
+    height: 30px;
+    color: white;
+
 }
