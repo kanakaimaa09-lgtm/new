@@ -101,3 +101,33 @@ button:hover {
     font-size: 14.5px;
     transition: 0.2s ease-in-out;
 }
+
+.destination {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+    border-top: 2px solid rgb(158, 149, 149);
+    border-bottom: 2px solid rgb(158, 149, 149);
+    outline: none;
+
+}
+
+.photo {
+    border-radius: 5px;
+    heighT: 160px;
+    margin: 0 50px 0 5PX;
+}
+
+
+
+.traditional {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid rgb(158, 149, 149);
+    outline: none;
+    margin-top: 2px;
+}
