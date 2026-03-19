@@ -112,15 +112,22 @@ button:hover {
     border-top: 2px solid rgb(158, 149, 149);
     border-bottom: 2px solid rgb(158, 149, 149);
     outline: none;
+    cursor: pointer;
 
 }
-
+.destination:hover{
+        font-size: 17px;
+    }
 .photo {
     border-radius: 5px;
     heighT: 145px;
     margin: 0 50px 0 5PX;
+    cursor: pointer;
+   
 }
-
+.photo:hover{
+        font-size: 30px;
+    }
 .wedding {
     display: flex;
     text-align: center;
@@ -129,6 +136,16 @@ button:hover {
     border-bottom: 2px solid rgb(158, 149, 149);
     outline: none;
     margin-top: 2px;
+    border-right:1px solid rgb(223, 221, 217) ;
+    cursor: pointer;
+   
+}
+.wedding:hover{
+        font-size: 17px;
+    }
+#picnic{
+    width: 16%;
+    position: relative;
 }
 
 footer {
@@ -141,17 +158,26 @@ footer {
 
 }
 
-.footer {
+.nav {
     width: 100%;
     display: flex;
     position: relative;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content:first baseline;
 }
 
 .icon {
     border-radius: 50%;
     height: 30px;
     margin-right: 20px;
+    cursor: pointer;
+
+}
+.icon:hover{
+height: 32px;
+}
+
+.text{
+ top: 30px;   
 }
