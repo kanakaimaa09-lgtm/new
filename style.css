@@ -117,41 +117,11 @@ button:hover {
 
 .photo {
     border-radius: 5px;
-    heighT: 160px;
+    heighT: 145px;
     margin: 0 50px 0 5PX;
 }
 
-.traditional {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    color: white;
-    border-bottom: 2px solid rgb(158, 149, 149);
-    outline: none;
-    margin-top: 2px;
-}
-
-.get-together {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    color: white;
-    border-bottom: 2px solid rgb(158, 149, 149);
-    outline: none;
-    margin-top: 2px;
-}
-
-.birthday {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    color: white;
-    border-bottom: 2px solid rgb(158, 149, 149);
-    outline: none;
-    margin-top: 2px;
-}
-
-.picnic {
+.wedding {
     display: flex;
     text-align: center;
     align-items: center;
@@ -162,7 +132,7 @@ button:hover {
 }
 
 footer {
-    margin: 10px 10% 0 10%;
+    padding: 12px 10% 0 10%;
     display: flex;
     align-items: center;
     text-align: center;
@@ -171,9 +141,17 @@ footer {
 
 }
 
+.footer {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 .icon {
     border-radius: 50%;
     height: 30px;
-    color: white;
-
+    margin-right: 20px;
 }
